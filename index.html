@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html>
+     <head>
+      <meta charset="utf-8">
+      <title>Mc Kruga</title>
+      <link rel="stylesheet" href="/style.css">
+   </head>
+   <header role="banner">
+      <h1>Welcome to Kelvin's CV</h1>
+   </header>
+   </head>
+   <body>
+      <button class="tablink" onclick="openPage('Home', this, 'gray')" id="defaultOpen">Home</button>
+      <button class="tablink" onclick="openPage('Biography', this, 'Orange')">Biography</button>
+      <button class="tablink" onclick="openPage('Contact', this, 'Pink')">Contact</button>
+      <button class="tablink" onclick="openPage('About', this, 'Gray')">About</button>
+      <div id="Home" class="tabcontent">
+         <h3>Home</h3>
+         <p>Home is where the heart is.            
+            <p> Get to know about my Hobbies </p>
+            <p> My Academic Achievements</p>
+            <p> The Projects I have Previously worked on</p>
+         </p>
+      </div>
+      <div id="Biography" class="tabcontent">
+         <h3>Biography</h3>
+         <p>My name is Kelvin. I'm currently studying in Botswana but originally from Zimbabwe,
+            Some of my favorite things to do is gaming and sleeping,
+            listening to music here and there, and ride public transportation (buses and trains).
+            These are activities that I enjoy immensely and indulge in daily.
+            My career aspirations are to become either an ethical hacker or software
+            engineer. I have been told that I am a charming, kind, attitude-prone
+            person with "oddities". I look up mostly to my family members, especially
+            my mom, as a guiding figure in life. Favorite shows of mine include
+            Doctor Who, Sherlock, Triple D (Diners, Drive-Ins' and Dives), Hustle,
+            and Chopped (yes, the majority of those are British TV shows, problem, bro?). Lol
+            what a list without some American serie and Locals.
+            Just a few things about yours truly
+         </p>
+         <h2>Favorite TV UK</h2>
+         <ul>
+            <li>Doctor Who</li>
+            <li>Sherlock</li>
+            <li>Triple D (Diners, Drive-Ins' and Dives)</li>
+            <li>Hustle</li>
+            <li>Chopped</li>
+         </ul>
+         <h2>Favorite TV America</h2>
+         <ul>
+            <li>Supernatural</li>
+            <li>Why women kill</li>
+            <li>For Life</li>
+            <li>WandaVision</li>
+            <li>Regular show</li>
+         </ul>
+         <h2>Favorite TV Local</h2>
+         <ul>
+            <li>Gringo</li>
+            <li>King's of joburg</li>
+            <li>Gomora</li>
+            <li>Wadiwa</li>
+            <li>Isibaya</li>
+         </ul>
+         <h2>Favorite Places by City</h2>
+         <table border="1">
+            <tr>
+               <th>London</th>
+               <th>Capetown</th>
+            </tr>
+            <tr>
+               <td>Sky pod (Bar)</td>
+               <td>House of machines (Bar)</td>
+            </tr>
+            <tr>
+               <td>Battersea park</td>
+               <td>Utopia</td>
+            </tr>
+         </table>
+         <h2>Favorite Games</h2>
+         <table border="1">
+            <tr>
+               <th>Windows</th>
+               <th>Console(XB/PS)</th>
+            </tr>
+            <tr>
+               <td>Call of duty</td>
+               <td>God Of War</td>
+            </tr>
+            <tr>
+               <td>Battlefield</td>
+               <td>EA FIFA</td>
+            </tr>
+            <tr>
+               <td>Need for speed</td>
+               <td>Marvel's Spiderman</td>
+            </tr>
+            <tr>
+               <td>Grand Theft Auto 4</td>
+               <td>Halo</td>
+            </tr>
+         </table>
+      </div>
+      <div id="Contact" class="tabcontent">
+         <h3>Contact</h3>
+         <p>Get in touch via DirectMail or swing by for a cup of coffee.
+         <div class="content">
+            <p><a class="youtube text-hide" href="https://www.youtube.com/watch?v=Fje9VFkVkWc" target="_blank">Youtube</a></p>
+            <p><a class="Reverbnation text-hide" href="https://www.reverbnation.com/McKruga" target="_blank">Reverbnation</a></p>
+            <p><a class="twitter text-hide" href="https://twitter.com/mckruga" target="_blank">Twitter</a></p>
+            <p><a class="facebook text-hide" href="https://www.facebook.com/McKruga" target="_blank">Facebook</a></a></p>
+            <p><a class="instagram text-hide" href="https://www.instagram.com/mckruga/" target="_blank">instagram</a></p>
+            <p><a href="mailto:kelvinmujee@gmail.com">Send email</a> </p>
+         </div>
+         </p>
+      </div>
+      <div id="About" class="tabcontent">
+         <h3>About</h3>
+         <p>Get to know me.</p>
+      </div>
+      <script>
+         function openPage(pageName,elmnt,color) {
+           var i, tabcontent, tablinks;
+           tabcontent = document.getElementsByClassName("tabcontent");
+           for (i = 0; i < tabcontent.length; i++) {
+             tabcontent[i].style.display = "none";
+           }
+           tablinks = document.getElementsByClassName("tablink");
+           for (i = 0; i < tablinks.length; i++) {
+             tablinks[i].style.backgroundColor = "";
+           }
+           document.getElementById(pageName).style.display = "block";
+           elmnt.style.backgroundColor = color;
+         }
+
+         // Get the element with id="defaultOpen" and click on it
+         document.getElementById("defaultOpen").click();
+      </script>
+      </head>
+      <body>
+         <div id="instagramicon">
+         <div id="instagramdot"></div>
+         <div id="instagramsquare">
+            <div id="instagramcircle"></div>
+         </div>
+         </p>
+         <article>
+            <section>
+               <p>Yareng itopic</p>
+               <p>This is my web page</p>
+            </section>
+         </article>
+         <aside>
+            <p>This is my web page</p>
+         </aside>
+         <figure align="left">
+            <img src="/R3eb35482ec2c1add4e9229a01ad5c462.png" alt="BAC" width="110" height="120">
+         </figure>
+=======
+>>>>>>> 7ba319e34e1fcbbe3c55f4d6947043d03df42195
+         <footer>
+            <p>Created by <a href="#">Tutorials Point</a></p>
+         </footer>
+   </body>
+</html>
