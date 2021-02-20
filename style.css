@@ -1,5 +1,5 @@
 html {
-  background-image: url(/mercedes_amg_gt_r_2018_4k-2560x1440.jpg);
+  background-color: inherit;
 }
 header {
   background-color: transparent;
@@ -43,5 +43,3 @@ header {
     #Biography {background-color: Orange;}
     #Contact {background-color: Pink;}
     #About {background-color: Grey;}
-
-    
