@@ -1,5 +1,8 @@
 html {
-  background-color: inherit;
+  background-image: url(/1.jpg);
+  background-size: cover;
+  background-blend-mode:multiply;
+  
 }
 header {
   background-color: transparent;
