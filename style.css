@@ -1,48 +1,82 @@
 html {
-  background-image: url(/1.jpg);
-  background-size: cover;
-  background-blend-mode:multiply;
-  
-}
-header {
-  background-color: transparent;
-  color: white;
-  font-size: 20px;
-  font-style: bold;
-  text-shadow: lightcoral, 250, 451, 550;
-  image-resolution: 50%;
+	background-image: url(/mercedes_amg_gt_r_2018_4k-2560x1440.jpg);
+	background-size: solid;
+	background-clip: inherit;
+	background-position: inherit;
+	image-orientation: flip;
 }
 
-   /* Set height of body and the document to 100% */
-   body, html {
-    height: 50;
-    margin: 10;
-    font-family: Arial;
-    }
-    /* Style tab links */
-    .tablink {
-    background-color: #555;
-    color: white;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    font-size: 20px;
-    width: 25%;
-    }
-    .tablink:hover {
-    background-color: #777;
-    }
-    /* Style the tab content (and add height:100% for full page content) */
-    .tabcontent {
-    color: white;
-    display: none;
-    padding: 80px 20px;
-    height: 100;
-    width:100;
-    }
-    #Home {background-color: peachpuff;}
-    #Biography {background-color: Orange;}
-    #Contact {background-color: Pink;}
-    #About {background-color: Grey;}
+header {
+	background-color: red;
+	border: 0.1rem solid;
+	border-top: 0.5rem;
+	border-bottom: 0.5rem;
+	border-width: 0mm;
+	border-radius: 35rem;
+	text-align: center;
+	color: white;
+	font-size: 1.5rem;
+	font-style: bold;
+	text-shadow: lightcoral;
+	image-resolution: 50;
+}
+
+
+/* Set height of body and the document to 100% */
+
+body,
+html {
+	height: 50;
+	margin: 10;
+	font-family: Arial;
+}
+
+
+/* Style tab links */
+
+.tablink {
+	background-color: #555;
+	color: white;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	font-size: 20px;
+	width: 25%;
+}
+
+.tablink:hover {
+	background-color: #777;
+}
+
+
+/* Style the tab content (and add height:100% for full page content) */
+
+.tabcontent {
+	color: white;
+	display: none;
+	padding: 80px 20px;
+	height: 100;
+	width: 100;
+}
+
+#Home {
+	background-color: transparent;
+	font-size: 125%;
+}
+
+#Biography {
+	background-color: transparent;
+	font-size: 125%;
+}
+
+#Contact {
+	background-color: transparent;
+	font-size: 125%;
+}
+
+#About {
+	background-color: transparent;
+	font-size: 125%;
+}
