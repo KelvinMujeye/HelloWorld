@@ -1,9 +1,17 @@
 html {
 	background-image: url(/mercedes_amg_gt_r_2018_4k-2560x1440.jpg);
+
 	background-size: solid;
 	background-clip: inherit;
 	background-position: inherit;
 	image-orientation: flip;
+
+	background-size:inherit;
+	background-clip: inherit;
+	background-position:left ;
+	image-orientation:inherit;
+	background-repeat: inherit;
+
 }
 
 header {
@@ -15,7 +23,10 @@ header {
 	border-radius: 35rem;
 	text-align: center;
 	color: white;
+
 	font-size: 1.5rem;
+
+	font-size: 1.1rem;
 	font-style: bold;
 	text-shadow: lightcoral;
 	image-resolution: 50;
@@ -26,7 +37,11 @@ header {
 
 body,
 html {
+
 	height: 50;
+
+	height: 100%;
+
 	margin: 10;
 	font-family: Arial;
 }
@@ -35,14 +50,22 @@ html {
 /* Style tab links */
 
 .tablink {
+
 	background-color: #555;
+
+	background-color: rgb(85, 85, 85);
+
 	color: white;
 	float: left;
 	border: none;
 	outline: none;
 	cursor: pointer;
 	padding: 14px 16px;
+
 	font-size: 20px;
+
+	font-size: 25px;
+
 	width: 25%;
 }
 
@@ -79,4 +102,40 @@ html {
 #About {
 	background-color: transparent;
 	font-size: 125%;
+}
+
+
+#YTclass
+{
+	color:black;
+	background-color:white;	
+}
+#TTclass
+{
+	color:black;
+	background-color:white;	
+}
+#FBclass
+{
+	color:black;
+	background-color:white;	
+}
+#IGclass
+{
+	color:black;
+	background-color:white;	
+}
+#RNclass
+{
+	color:black;
+	background-color: white;	
+}
+#Mclass
+{
+	color:black;
+	background-color:white;	
+}
+h2
+{
+	
 }
